@@ -1,0 +1,139 @@
+body {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: #e4e4e4;
+    color: #444;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00cccc;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 100;
+    margin: 0px;
+    margin-top: 1%;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 100;
+    color: #aaa;
+    margin: 0px;
+    margin-bottom: 1%;
+    margin-top: -1.5%;
+}
+
+code {
+    font-size: 1.2em;
+}
+
+.main {
+    margin: 1%;
+    position: relative;
+    overflow: auto;
+}
+
+.leftcol-wrap {
+    width: 200px;
+    position: absolute;
+    top: 0px;
+}
+
+.leftcol {
+    width: 200px;
+    text-align: right;
+    position: fixed;
+    padding: 10px;
+}
+
+.leftcol h1 {
+    display: none;
+}
+
+.leftcol .line {
+    background: #aaa;
+    height: 1px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.leftcol ul {
+    list-style: none;
+    padding-right: 12px;
+    font-size: 1.6em;
+    margin: 0px;
+}
+
+.rightcol {
+    padding: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: #ffffff;
+    margin: 1%;
+    margin-left: 235px;
+    margin-top: 10px;
+}
+
+.rightcol a {
+    color: #009999;
+}
+
+.rightcol a:hover {
+    color: #00cccc;
+}
+
+.rightcol .line {
+    background: #ddd;
+    height: 2px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 1.5%;
+}
+
+.rightcol .wrapper {
+    margin-top: 3%;
+}
+
+.rightcol .wrapper img {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.rightcol p {
+    margin-top: 0%;
+}
+
+.rightcol .wrapper .left {
+    float: left;
+    width: 48.5%;
+    padding-right: 2.7%;
+}
+
+.rightcol .wrapper .right {
+    float: left;
+    width: 48.5%;
+}
+
+.rightcol .post img {
+    margin-bottom: 1%;
+}
+
+.rightcol .overflow {
+    clear: both;
+}

@@ -1,0 +1,12 @@
+# Site settings
+title: meep
+email: yuanyu.chen@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Yuanyu Chen's portfolio of cool projects!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://y2c.me" # the base hostname & protocol for your site
+github_username:  y2c
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+
+# Build settings
+markdown: kramdown

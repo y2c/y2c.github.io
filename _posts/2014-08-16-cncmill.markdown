@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "CNC Mill"
+date:   2014-08-16 15:14:48
+categories: projects
+---
+
+<img src="{{ site.baseurl }}/img/cncmill.jpg" width="100%">
+For my microcontrollers course, 6.115, I built a 2.5 axis CNC mill for my final project.
+
+<!--more-->
+
+I designed the machine in Solidworks, and designed it so that all the pieces could be made on the waterjet with a few touch up drilling operations. I designed the circuit to run my machine, spec'd motors to drive the axes, and chose to use a dremel as the spindle head due to time constraints of the 5-week project. I wrote python code that decoded a dxf file, fed the output of the code to an 8051 microcontroller, and used the 8051 to take coordinates and correctly step the stepper motors to be able to engrave parts.

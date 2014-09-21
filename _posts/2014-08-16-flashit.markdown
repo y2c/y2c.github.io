@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "flash.it"
+date:   2014-08-16 15:14:48
+categories: projects
+---
+
+<img src="{{ site.baseurl }}/img/wall.jpeg" width="100%">
+flash.it was an LED climbing wall built for Burning Man 2013. I designed the climbing holds and all associated circuitry, while friends built and painted the the 12 ft tall wall.
+
+<!--more-->

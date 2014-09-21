@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Brass Rat"
+date:   2014-08-16 15:14:48
+categories: projects
+---
+
+<img src="{{ site.baseurl }}/img/brassrat.jpg" width="100%">
+An MIT tradition is to receive a class ring, affectionately dubbed the "brass rat", at the end of your sophomore year. However, the rat only comes in gold, silver, and stainless steel, with no option for an actual *brass* rat.
+
+<!--more-->
+
+I ended up designing and machining my own brass rat out of brass. I modified the 2012 class design to incorporate parts of MIT that were more near and dear to my heart, drew up toolpaths in Mastercam, made fixtures to be able to support the ring while it was being machined, and ran the CNC mill to make it. 
+
+Later, I modified the CAD slightly and 3D printed another brass rat (via wax / investment casting through an online 3D printing service).

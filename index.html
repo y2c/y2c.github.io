@@ -1,0 +1,72 @@
+---
+layout: default
+title: "yuanyu chen"
+---
+
+<p>Hello! Welcome to my portfolio site of sorts, because I like making things and documentation is always a good thing. Here are some projects I've worked on (including this website itself, which is powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and some old fashioned hand-typed CSS).</p>
+
+<p><a href="mailto:hi@y2c.me">Email me</a> at <code>hi@y2c.me</code></p>
+    
+<div class="wrapper">
+    <a id="projects"></a>
+                
+    {% for post in site.posts %}
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {% if thecycle == 'odd' %}
+    <div class="left">
+        {% endif %}
+        {% if thecycle == 'even' %}
+    <div class="right">
+        {% endif %}
+        <h2>{{ post.title }}</h2>
+        <div class="line"></div>
+        {{ post.content | split: '<!--more-->' | first | remove: '<p>' | remove: '</p>' }}
+        <a href="{{ post.url }}">Click here to read more.</a>
+    </div>
+    {% endfor %}
+    <div class="overflow"></div>
+</div>
+                
+<div class="wrapper">
+    <a id="work"></a>
+    <div class="left">
+        <h2>Apple</h2>
+        <div class="line"></div>
+        <h3>Mechanical Design Engineer</h3>
+        For a little over 2 years, I worked as a Mechanical Design Engineer in the Manufacturing Design group at Apple.
+    </div>
+    <div class="right">
+        <h2>NASA</h2>
+        <div class="line"></div>
+        <h3>Mechanical Engineering Intern</h3>
+        In summer 2011, I was a Mechanical Engineering Intern at NASA Goddard Space Flight Center.
+    </div>
+    <div class="overflow"></div>
+</div>
+
+<div class="wrapper">
+    <a id="school"></a>
+    <div class="left">
+        <h2>MIT</h2>
+        <div class="line"></div>
+        <h3>S.B. Mechanical Engineering, 2012</h3>
+At MIT, I studied Mechanical Engineering with a concentration in EE/Robotics. I was also a lab assistant for 6.115 (Microcontrollers Lab) and 2.678 (Electronics for Mechanical Engineers).
+        <br><br>
+        Some classes I took at the 'tvte:
+        <ul>
+            <li>2.72 - Elements of Mechanical Design</li>
+            <li>2.75 - Precision Machine Design</li>
+            <li>6.115 - Microcontrollers Lab</li>
+            <li>6.131 - Power Electronics</li>
+            <li>MAS.863 - How to Make [Almost] Anything</li>
+            <li>6.302 - Feedback Systems</li>
+        </ul>
+    </div>
+    <div class="right">
+        <h2>Stanford</h2>
+        <div class="line"></div>
+        <h3>M.S. Electrical Engineering, in progress</h3>
+        I am currently pursuing a Master's in Electrical Engineering. I plan on exploring a few areas across the discipline, and hope to take many lab classes along the way. I have a general interest in learning more about energy applications.
+    </div>
+    <div class="overflow"></div>
+</div>
