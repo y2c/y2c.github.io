@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Mr. Sparkles"
+date:   2014-08-16 15:14:48
+categories: projects
+---
+
+<img src="{{ site.baseurl }}/img/bike.jpg" width="100%">
+I made a bicycle frame!
+
+<!--more-->
+
+At Stanford, I got into the ME204 sequence, in which we designed and built a custom bike frame for ourselves. During this process, I learned to TIG weld and braze thin-walled steel tubing. There were many trials and tribulations (sometimes by fire), but in the end I had a beautiful frame that I outfitted with parts. I dubbed him Mr. Sparkles.
+
+In the photo above, Mr. Sparkles has his 26" dirt wheels on after a nice ride through some trails in the Marin Headlands. He comes equipped with a makeshift 1x Ultegra 11 speed group, with a massive (-ly useful) 11-40 cassette in the back. Mr. Sparkles is also equipped with all the rack mounts in case I ever want to go touring.
